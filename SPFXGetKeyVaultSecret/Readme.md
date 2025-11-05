@@ -4,7 +4,7 @@ This solution uses default Function Authentication where Access Key is appended 
 SPFX solution uses HttpClient to call the Function Url and retrieve response as text.
 Note: Functions URLS are supplied as Webpart Properties.
 
-Improvements
+Improvements: 
 Secure the function using an Entra App and use aadHttpClientFactory as shown below
 
         appContext.webpartContext?.aadHttpClientFactory.getClient(<ClientId of the App>)
